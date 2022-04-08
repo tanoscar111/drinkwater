@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="water-glass-color.ico" />
+    <title>water Tracking</title>
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Lợi ích của việc uống nước?" />
+    <meta
+      property="og:description"
+      content="Nước đặc biệt cần thiết cho sự sống. Nước chiếm hàm lượng khá lớn
+    trong cơ thể"
+    />
+    <meta
+      property="og:image"
+      content="boxed-water-is-better-ZN5lN-H2kMw-unsplash.jpg"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="intro">
+        <h1>WATER TRACKER</h1>
+        <p>
+          Nước đặc biệt cần thiết cho sự sống. Nước chiếm hàm lượng khá lớn
+          trong cơ thể. Một người không thể tồn tại được mà không có nước trong
+          khoảng một tuần. Hơn nữa, nước còn mang lại rất nhiều lợi ích cho cơ
+          thể khi được cung cấp đầy đủ chẳng hạn như: Giúp các khớp hoạt động
+          tốt hơn, hoặc làm cho tim khỏe mạnh hơn.Ở người trưởng thành nước
+          chiếm 60% trọng lượng cơ thể. Chúng thực hiện nhiều chức năng quan
+          trọng. Nói chung với nam nên cấp khoảng 3 lít, trong khi nữ là 2 lít.
+          Tùy theo độ tuổi và nhu cầu sinh lý, bệnh lý mà có thể tăng hoặc giảm
+          lượng nước. Và cũng đừng cứng nhắc uống 2 -3 lít nước mỗi ngày. Vì
+          nước còn được lấy từ trong thực phẩm bạn ăn vào. Nhiều người ít uống
+          nước nhưng vẫn đảm bảo đủ lượng nước nhập vào. Bởi họ có chế độ ăn đa
+          dạng với nhiều thực phẩm chứa lượng nước dồi dào.
+        </p>
+      </header>
+
+      <div class="container">
+        <section class="section-a">
+          <h2 class="goal">
+            Mục tiêu uống nước:
+            <div class="custom-select">
+              <select class="text" id="text">
+                <option class="input-text" value="0">Chọn mức nước</option>
+                <option value="1">1</option>
+                <option value="1.5">1.5</option>
+                <option value="2">2</option>
+                <option value="2.5">2.5</option>
+                <option value="3">3</option>
+                <option value="3.5">3.5</option>
+                <option value="4">4</option>
+                <option value="4.5">4.5</option>
+                <option value="5">5</option>
+              </select>
+            </div>
+            L
+          </h2>
+
+          <div class="cup">
+            <div class="remained" id="remained">
+              <span id="litres">2L</span>
+              <small>Remained</small>
+            </div>
+            <div class="percentage" id="percentage"></div>
+          </div>
+        </section>
+
+        <section class="section-b">
+          <div id="cups">
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+            <span class="cup cup-small">250ml</span>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
